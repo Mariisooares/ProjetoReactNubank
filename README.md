@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Carrinho de Compras com React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto desenvolvido por mim, desenvolvedora júnior, e estou iniciando na carreira. A ideia é criar uma loja online simples para exibir produtos disponíveis e permitir que os usuários adicionem itens ao carrinho de compras. O projeto foi criado usando ReactJS, um framework popular para desenvolvimento front-end, e utiliza o conceito de componentes para organizar e reutilizar o código. É possível que o código contenha erros ou não esteja totalmente otimizado, mas o objetivo é aprender e melhorar ao longo do processo.
 
-## Available Scripts
+A página inicial exibe uma lista de produtos disponíveis, carregados dinamicamente a partir de uma API (ou um array de objetos simulando a API). Cada produto é exibido com seu nome, descrição e preço. Os usuários podem clicar no botão "Adicionar ao Carrinho" para incluir o produto no carrinho de compras.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Listagem de produtos: exibe uma lista de produtos obtidos da API do Mercado Livre.
+- Busca de produtos: permite pesquisar produtos com base em palavras-chave.
+- Adição de produtos ao carrinho: permite adicionar produtos ao carrinho de compras.
+- Remoção de produtos do carrinho: possibilita remover produtos do carrinho de compras.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React JS;
+- HTML5;
+- CSS3;
+- API do Mercado Livre: utilizada para obter dados de produtos.
